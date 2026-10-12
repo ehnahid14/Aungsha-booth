@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#003528">
+  <title>অংশ | Aungsha — Digital Real Estate Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#">
+      <img src="https://i.ibb.co.com/8g6f3fg7/images-removebg-preview.png" alt="Aungsha Logo" class="brand-logo">
+      অংশ
+    </a>
+    <nav class="links">
+      <a href="#">হোম</a>
+      <a href="#days">ফটো গ্যালারি</a>
+      <a href="#about">অংশ কী?</a>
+      <a href="#projects">আমাদের প্রকল্প</a>
+      <a href="#contact">যোগাযোগ</a>
+    </nav>
+    <a class="btn" href="#days">▣ ছবি দেখুন</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="মেনু খুলুন">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-header">
+      <a class="brand" href="#">
+        <img src="https://i.ibb.co.com/8g6f3fg7/images-removebg-preview.png" alt="Aungsha Logo" class="brand-logo">
+        অংশ
+      </a>
+      <button class="menu-close" id="menuClose" aria-label="মেনু বন্ধ করুন">✕</button>
+    </div>
+    <nav>
+      <a href="#" data-close>হোম</a>
+      <a href="#days" data-close>ফটো গ্যালারি</a>
+      <a href="#about" data-close>অংশ কী?</a>
+      <a href="#projects" data-close>আমাদের প্রকল্প</a>
+      <a href="#contact" data-close>যোগাযোগ</a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a class="btn" href="#days" data-close>▣ ছবি দেখুন</a>
+    </div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-left">
+      <span class="hero-badge">
+        <span class="dot"></span>
+        AUNGSHA FAIR 2026 • PHOTO GALLERY
+      </span>
+      <h1>
+        <span class="gold">Welcome to</span> <span class="underline">অংশ</span> Booth.<br>
+        এখানেই রয়েছে আপনার অংশ
+      </h1>
+      <p class="hero-desc">
+        তিন দিনের ফেয়ার, শত শত হাসিমুখ — সব ছবি একসাথে আপনাদের-ই জন্য।
+        দিন বেছে নিন, ছবি দেখুন, <b>ডাউনলোড করুন</b>।
+      </p>
+      <div class="hero-cta">
+        <a class="cta-primary" href="#days">▣ ছবি দেখুন</a>
+        <a class="cta-secondary" href="#about">📖 অংশ কী?</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>১০০০৳</b><span>সর্বনিম্ন ইনভেস্ট</span></div>
+        <div class="stat"><b>৪+</b><span>চলমান প্রকল্প</span></div>
+        <div class="stat"><b>১০০%</b><span>ডিজিটাল প্ল্যাটফর্ম</span></div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-img-card">
+        <img src="https://i.ibb.co.com/0jgbKRgb/cloud-9-kolatoli.jpg" alt="Hotel Cloud 9 Kolatoli" loading="lazy">
+        <div class="hero-img-label">
+          <span class="badge">🏨 Featured</span>
+          <h3>Cloud 9 — Kolatoli</h3>
+        </div>
+      </div>
+
+      <div class="hero-img-card">
+        <img src="https://i.ibb.co.com/R4VjgFpB/cloud-9-inani.png" alt="Hotel Cloud 9 Inani" loading="lazy">
+        <div class="hero-img-label">
+          <span class="badge">🌊 Featured</span>
+          <h3>Cloud 9 — Inani</h3>
+        </div>
+      </div>
+
+      <div class="hero-img-card">
+        <img src="https://i.ibb.co.com/gbgrRGhM/hotel-beach-point.png" alt="Hotel Beach Point Kuakata" loading="lazy">
+        <div class="hero-img-label">
+          <span class="badge">🏖 Featured</span>
+          <h3>Beach Point</h3>
+        </div>
+      </div>
+
+      <div class="hero-img-card">
+        <img src="https://i.ibb.co.com/Wv4v8d4p/purbachal.webp" alt="Purbachal Hill City" loading="lazy">
+        <div class="hero-img-label">
+          <span class="badge">🏙 Featured</span>
+          <h3>Purbachal Hill</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section class="wrap gallery-section" id="days">
+    <div class="section-head">
+      <h2>ইভেন্ট <span class="gold">ফটো গ্যালারি</span></h2>
+      <p>দিন নির্বাচন করুন এবং Google Drive-এ ছবিগুলো দেখুন</p>
+    </div>
+
+    <div class="days">
+      <article class="daycard">
+        <div class="cover">
+          <svg class="driveicon" viewBox="0 0 87 76" aria-label="Google Drive">
+            <path fill="#00875A" d="M28 5h20L20 55H0z"/>
+            <path fill="#FFBA00" d="M48 5 78 55H58L28 5z"/>
+            <path fill="#2684FC" d="M20 55h58L68 72H10z"/>
+            <path fill="#00AC47" d="M0 55h20l-10 17z"/>
+          </svg>
+        </div>
+        <div class="cardbody">
+          <div class="cardtop"><h3>Day 1</h3><span class="tag">প্রথম দিন</span></div>
+          <p>প্রথম দিনের ইভেন্টের সব ছবি</p>
+          <a class="openbtn drive-link" data-day="1" href="#" target="_blank" rel="noopener">Google Drive খুলুন ↗</a>
+        </div>
+      </article>
+
+      <article class="daycard">
+        <div class="cover">
+          <svg class="driveicon" viewBox="0 0 87 76" aria-label="Google Drive">
+            <path fill="#00875A" d="M28 5h20L20 55H0z"/>
+            <path fill="#FFBA00" d="M48 5 78 55H58L28 5z"/>
+            <path fill="#2684FC" d="M20 55h58L68 72H10z"/>
+            <path fill="#00AC47" d="M0 55h20l-10 17z"/>
+          </svg>
+        </div>
+        <div class="cardbody">
+          <div class="cardtop"><h3>Day 2</h3><span class="tag">দ্বিতীয় দিন</span></div>
+          <p>দ্বিতীয় দিনের ইভেন্টের সব ছবি</p>
+          <a class="openbtn drive-link" data-day="2" href="#" target="_blank" rel="noopener">Google Drive খুলুন ↗</a>
+        </div>
+      </article>
+
+      <article class="daycard">
+        <div class="cover">
+          <svg class="driveicon" viewBox="0 0 87 76" aria-label="Google Drive">
+            <path fill="#00875A" d="M28 5h20L20 55H0z"/>
+            <path fill="#FFBA00" d="M48 5 78 55H58L28 5z"/>
+            <path fill="#2684FC" d="M20 55h58L68 72H10z"/>
+            <path fill="#00AC47" d="M0 55h20l-10 17z"/>
+          </svg>
+        </div>
+        <div class="cardbody">
+          <div class="cardtop"><h3>Day 3</h3><span class="tag">তৃতীয় দিন</span></div>
+          <p>তৃতীয় দিনের ইভেন্টের সব ছবি</p>
+          <a class="openbtn drive-link" data-day="3" href="#" target="_blank" rel="noopener">Google Drive খুলুন ↗</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="note">
+      <b>ছবি দেখার নিয়ম:</b> যে দিনের ছবি দেখতে চান, সেই দিনের "Google Drive খুলুন" বাটনে ক্লিক করুন। Drive ফোল্ডারটি শেয়ার করা থাকতে হবে, নইলে দর্শকরা ছবিগুলো দেখতে পারবেন না।
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="wrap">
+
+      <div class="about-head">
+        <span class="about-badge">
+          <span class="dot"></span>
+          ABOUT AUNGSHA • DIGITAL REAL ESTATE
+        </span>
+        <h2>অংশ <span class="gold">কী?</span></h2>
+        <p>বাংলাদেশের একটি ডিজিটাল রিয়েল এস্টেট প্ল্যাটফর্ম — যেখানে দেশে বা প্রবাসে থেকেই এক ক্লিকে বিনিয়োগ করুন, আর প্রয়োজনে নিজের মতো করে মুনাফা তুলে নিন।</p>
+      </div>
+
+      <div class="about-wrap">
+
+        <div class="about-main">
+          <span class="about-tag">◆ আমাদের প্ল্যাটফর্ম</span>
+          <h3>আপনার স্বপ্নের প্রতিটি <span class="gold">পদক্ষেপ</span>, এক অ্যাপে</h3>
+
+          <p>
+            <span class="highlight">অংশ</span> বাংলাদেশের একটি ডিজিটাল রিয়েল এস্টেট প্ল্যাটফর্ম।
+            দেশে থাকুন বা প্রবাসে — যখন ইচ্ছা, এক ক্লিকেই রিয়েল এস্টেটে বিনিয়োগ করুন।
+            আবার প্রয়োজনের মুহূর্তে মূলধন কিংবা মুনাফা তুলে নিতে পারেন নিজের মতো করে।
+          </p>
+
+          <p>
+            আপনার স্বপ্নের প্রতিটি পদক্ষেপ — বিনিয়োগ, শেয়ার, মুনাফা কিংবা উত্তোলন,
+            সবকিছুর হিসাব থাকে <b>এক অ্যাপে, পরম যত্নে</b>। প্রকল্প কতদূর এগোলো তা দেখা,
+            শেয়ার কেনাবেচা আর আয়ের খোঁজ রাখা, সবই এখন আপনার হাতের মুঠোয়।
+          </p>
+
+          <p>
+            কোনো জটিলতা নয়, শুধু <span class="highlight">স্বচ্ছতা আর নিশ্চিত ভরসা</span>।
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-icon">💵</span>
+              <b>১০০০৳</b>
+              <span>সর্বনিম্ন বিনিয়োগ</span>
+            </div>
+            <div class="stat">
+              <span class="stat-icon">📜</span>
+              <b>ডিজিটাল</b>
+              <span>সার্টিফিকেট</span>
+            </div>
+            <div class="stat">
+              <span class="stat-icon">🏢</span>
+              <b>৪+</b>
+              <span>চলমান প্রকল্প</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card" id="contact">
+          <h3><i>✆</i> যোগাযোগ</h3>
+          <div class="contact-item">
+            <span class="ico">🏢</span>
+            <div>
+              <b>বিশ্বাস বিল্ডার্স লিমিটেড</b>
+              New Market City Complex, 44/1 Rahim Square,<br>
+              New Market, Dhaka-1205
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ico">☎</span>
+            <div>
+              <b>ফোন</b>
+              <a href="tel:029671320">02-9671320</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ico">✉</span>
+            <div>
+              <b>ইমেইল</b>
+              <a href="mailto:info@bblbd.com">info@bblbd.com</a>
+            </div>
+          </div>
+
+          <div class="contact-qr">
+            <a href="https://aungsha.com" target="_blank" rel="noopener" class="contact-qr-item">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://aungsha.com&bgcolor=FFFFFF&color=08784d&margin=2" alt="Aungsha Website QR">
+              <span class="qr-label"><span>🌐</span> Website</span>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.aungsha.app&hl=bn" target="_blank" rel="noopener" class="contact-qr-item">
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://play.google.com/store/apps/details?id=com.aungsha.app%26hl=bn&bgcolor=FFFFFF&color=08784d&margin=2" alt="Aungsha Play Store QR">
+              <span class="qr-label"><span>▶</span> Play Store</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="about-steps-title">
+        <h3>মাত্র <span class="gold">ছয়টি ধাপে</span> শুরু</h3>
+        <p>খুব সহজ — রেজিস্ট্রেশন থেকে মুনাফা পর্যন্ত, পুরো যাত্রাটাই ডিজিটাল</p>
+      </div>
+
+      <div class="about-steps">
+        <div class="about-step">
+          <div class="about-step-num">১</div>
+          <span class="about-step-icon">📝</span>
+          <h4>অ্যাকাউন্ট খুলুন</h4>
+        </div>
+        <div class="about-step">
+          <div class="about-step-num">২</div>
+          <span class="about-step-icon">🏢</span>
+          <h4>প্রকল্প বেছে নিন</h4>
+        </div>
+        <div class="about-step">
+          <div class="about-step-num">৩</div>
+          <span class="about-step-icon">💳</span>
+          <h4>টাকা জমা দিন</h4>
+        </div>
+        <div class="about-step">
+          <div class="about-step-num">৪</div>
+          <span class="about-step-icon">📜</span>
+          <h4>শেয়ার কিনুন</h4>
+        </div>
+        <div class="about-step">
+          <div class="about-step-num">৫</div>
+          <span class="about-step-icon">📊</span>
+          <h4>হিসাব দেখুন</h4>
+        </div>
+      </div>
+
+      <div class="why-title">
+        <h3>কেন <span class="gold">অংশ</span>?</h3>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card">
+          <div class="why-icon">✅</div>
+          <div class="why-body">
+            <h4>মাত্র ১,০০০ টাকা থেকে শুরু</h4>
+            <p>মাত্র ১,০০০ টাকা দিয়ে শুরু করুন আপনার বিনিয়োগের যাত্রা।</p>
+          </div>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">📜</div>
+          <div class="why-body">
+            <h4>প্রতিটি শেয়ারের ডিজিটাল সার্টিফিকেট</h4>
+            <p>প্রতিটি শেয়ারের জন্য পাবেন ডিজিটাল সার্টিফিকেট — যা সবসময় আপনার হাতের মুঠোয়।</p>
+          </div>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">🏗️</div>
+          <div class="why-body">
+            <h4>যেকোনো প্রকল্পে বিনিয়োগ</h4>
+            <p>বিশ্বাস বিল্ডার্সের যেকোনো প্রকল্পে বিনিয়োগের সুযোগ।</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <div class="wrap">
+      <div class="projects-head">
+        <div>
+          <h3>আমাদের <span class="gold">প্রকল্পসমূহ</span></h3>
+          <p>বিশ্বাস বিল্ডার্স লিমিটেডের চলমান ও পরিকল্পিত প্রকল্প</p>
+        </div>
+        <span class="line"></span>
+      </div>
+
+      <div class="projects">
+
+        <article class="project">
+          <div class="project-img">
+            <img src="https://i.ibb.co.com/0jgbKRgb/cloud-9-kolatoli.jpg" alt="Cloud 9 (Kolatoli)" loading="lazy">
+          </div>
+          <div class="project-body">
+            <h4>Cloud 9 (Kolatoli)</h4>
+            <div class="loc">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              Kolatoli, Cox's Bazar
+            </div>
+            <div class="project-stats">
+              <div class="stat-box">
+                <span class="stat-label">ইউনিট মূল্য</span>
+                <span class="stat-value">৳ 1000</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">বার্ষিক রিটার্ন</span>
+                <span class="stat-value">17% - 22%</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-img">
+            <img src="https://i.ibb.co.com/R4VjgFpB/cloud-9-inani.png" alt="Cloud 9 (Inani)" loading="lazy">
+          </div>
+          <div class="project-body">
+            <h4>Cloud 9 (Inani)</h4>
+            <div class="loc">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              Marine Drive, Inani, Cox's Bazar
+            </div>
+            <div class="project-stats">
+              <div class="stat-box">
+                <span class="stat-label">ইউনিট মূল্য</span>
+                <span class="stat-value">৳ 1000</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">বার্ষিক রিটার্ন</span>
+                <span class="stat-value">17% - 22%</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-img">
+            <img src="https://i.ibb.co.com/gbgrRGhM/hotel-beach-point.png" alt="Hotel Beach Point" loading="lazy">
+          </div>
+          <div class="project-body">
+            <h4>Hotel Beach Point</h4>
+            <div class="loc">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              Holding No. 233, Ward 03, Kuakata
+            </div>
+            <div class="project-stats">
+              <div class="stat-box">
+                <span class="stat-label">ইউনিট মূল্য</span>
+                <span class="stat-value">৳ 1100</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">বার্ষিক রিটার্ন</span>
+                <span class="stat-value">15% - 30%</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-img">
+            <img src="https://i.ibb.co.com/Wv4v8d4p/purbachal.webp" alt="Purbachal Hill City" loading="lazy">
+          </div>
+          <div class="project-body">
+            <h4>PURBACHAL HILL CITY</h4>
+            <div class="loc">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              Mouza: Golan, Kamta, Kaliganj
+            </div>
+            <div class="project-stats">
+              <div class="stat-box">
+                <span class="stat-label">ইউনিট মূল্য</span>
+                <span class="stat-value">৳ 1050</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">বার্ষিক রিটার্ন</span>
+                <span class="stat-value">22% - 30%</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="invest-cta-wrap">
+    <div class="wrap">
+      <div class="how-cta">
+        <div class="how-cta-text">
+          <h3>আজই শুরু করুন <span class="gold">আপনার বিনিয়োগ যাত্রা</span></h3>
+          <p>অফিসিয়াল ওয়েবসাইটে যান — যেকোনো প্রজেক্ট থেকে ইনভেস্ট করুন — মুনাফা উপভোগ করুন।</p>
+        </div>
+        <a href="https://aungsha.com" target="_blank" rel="noopener" class="how-cta-btn">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          aungsha.com ভিজিট করুন
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="#" class="to-top" aria-label="Back to top">↑</a>
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#">
+          <img src="https://i.ibb.co.com/8g6f3fg7/images-removebg-preview.png" alt="Aungsha Logo" class="brand-logo">
+          অংশ
+        </a>
+        <p>
+          Aungsha — একটি আধুনিক ডিজিটাল রিয়েল এস্টেট ম্যানেজমেন্ট প্ল্যাটফর্ম, যা
+          ZMC Technologies Ltd. কর্তৃক নির্মিত এবং বিশ্বাস বিল্ডার্স লিমিটেডের
+          সাথে সম্পর্কিত।
+        </p>
+        <div class="slogan-line">"Your Moments, Your Discoveries, Your Future."</div>
+        <div class="socials">
+          <a href="https://www.facebook.com/aungsha.bd" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.99 3.66 9.13 8.44 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99C18.34 21.13 22 16.99 22 12z"/></svg>
+          </a>
+          <a href="https://youtube.com/@aungshabd?si=3Pzgwnts9r2s8b3F" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M23.5 6.2c-.3-1.1-1.1-1.9-2.2-2.2C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.3.5C1.6 4.3.8 5.1.5 6.2.1 8 .1 12 .1 12s0 4 .4 5.8c.3 1.1 1.1 1.9 2.2 2.2 1.8.5 9.3.5 9.3.5s7.5 0 9.3-.5c1.1-.3 1.9-1.1 2.2-2.2.4-1.8.4-5.8.4-5.8s0-4-.4-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
+          </a>
+          <a href="https://wa.me/8801635000925" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.2-.5-2.4-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.6.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.7-.9-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.3c1.4.8 3.1 1.3 4.8 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 14.8 3.5 13.4 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5z"/></svg>
+          </a>
+        </div>
+        <a class="playstore-btn" href="https://play.google.com/store/apps/details?id=com.aungsha.app&hl=bn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24">
+            <path fill="#00C4FF" d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l.1.1L13.4 12 3.7 1.7l-.1.1z"/>
+            <path fill="#FFD400" d="M17 15.6l-3.6-3.6L17 8.4l4.4 2.5c1.2.7 1.2 2 0 2.7L17 15.6z"/>
+            <path fill="#FF3A44" d="M17 8.4L13.4 12 3.7 1.7c.4-.4 1-.5 1.7-.1L17 8.4z"/>
+            <path fill="#00E676" d="M17 15.6l-11.6 6.8c-.7.4-1.3.3-1.7-.1L13.4 12 17 15.6z"/>
+          </svg>
+          <span class="ps-text">
+            <span>Get it on</span>
+            <b>Google Play</b>
+          </span>
+        </a>
+      </div>
+
+      <div class="foot-col">
+        <h4>কুইক লিংক</h4>
+        <ul>
+          <li><a href="#">হোম</a></li>
+          <li><a href="#days">ফটো গ্যালারি</a></li>
+          <li><a href="#about">অংশ কী?</a></li>
+          <li><a href="#projects">আমাদের প্রকল্প</a></li>
+          <li><a href="#contact">যোগাযোগ</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>প্রকল্পসমূহ</h4>
+        <ul>
+          <li><a href="#">Hotel Cloud 9 — Kolatoli</a></li>
+          <li><a href="#">Hotel Cloud 9 — Inani</a></li>
+          <li><a href="#">Hotel Beach Point — Kuakata</a></li>
+          <li><a href="#">Purbachal Hill City</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>যোগাযোগ</h4>
+        <ul class="foot-contact">
+          <li>
+            <span class="ic">🏢</span>
+            <div>
+              <b>বিশ্বাস বিল্ডার্স লিমিটেড</b>
+              New Market City Complex, 44/1 Rahim Square, New Market, Dhaka-1205
+            </div>
+          </li>
+          <li>
+            <span class="ic">☎</span>
+            <div>
+              <b>ফোন</b>
+              <a href="tel:029671320">02-9671320</a>
+            </div>
+          </li>
+          <li>
+            <span class="ic">💬</span>
+            <div>
+              <b>WhatsApp</b>
+              <a href="https://wa.me/8801635000925" target="_blank" rel="noopener">01635000925</a>
+            </div>
+          </li>
+          <li>
+            <span class="ic">🌐</span>
+            <div>
+              <b>ওয়েবসাইট</b>
+              <a href="https://aungsha.com" target="_blank" rel="noopener">aungsha.com</a>
+            </div>
+          </li>
+          <li>
+            <span class="ic">✉</span>
+            <div>
+              <b>ইমেইল</b>
+              <a href="mailto:info@bblbd.com">info@bblbd.com</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <small>© <span id="year"></span> Aungsha. সর্বস্বত্ব সংরক্ষিত।</small>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/8801635000925" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.2-.5-2.4-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.6.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.7-.9-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.3c1.4.8 3.1 1.3 4.8 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 14.8 3.5 13.4 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.5-8.5 8.5z"/>
+  </svg>
+  <span class="wa-text">Chat on WhatsApp</span>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
